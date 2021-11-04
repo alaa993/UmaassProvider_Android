@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514487883653",
+    "firebase_url": "https://umaassprovider.firebaseio.com",
+    "project_id": "umaassprovider",
+    "storage_bucket": "umaassprovider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514487883653:android:893497315d0517d7b396ec",
+        "android_client_info": {
+          "package_name": "net.umaass_providers.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514487883653-i3q5sb1bhhqto8k304rkfk5t9isf1kjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD39POL4g80pYYNL-PDFDSLJ9sTPGuqsF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514487883653-i3q5sb1bhhqto8k304rkfk5t9isf1kjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

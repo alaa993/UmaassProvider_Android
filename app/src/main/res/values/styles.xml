@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+    <style name="green" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#4CAF50</item>
+        <item name="colorControlHighlight">#378039</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+
+    <style name="DialogStyleTitle" >
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="DialogDescStyle">
+        <item name="android:textColor">@color/grey_8b8b8b</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+</resources>

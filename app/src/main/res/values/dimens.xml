@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_elevation">2dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_max">2dp</dimen>
+    <dimen name="toolbar_text_size">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Margin to the left and right of the search box. -->
+    <!-- Margin above the search box. -->
+    <!-- Margin below the search box. -->
+    <!-- Search box interior padding - left -->
+    <!-- Search box interior padding - right -->
+
+    <!-- Padding around the icon in the search box. -->
+
+    <!-- Size of the icon (voice search, back arrow) in the search box. -->
+    <dimen name="search_box_icon_size">24dp</dimen>
+    <!-- Size of the close icon.
+         Because it expands diagonally, it needs to be shrunk to look relatively the same size -->
+    <!-- Padding around back arrow icon in the search box -->
+    <!-- Padding around close icon in the search box -->
+    <!-- Left margin of the text field in the search box. -->
+    <dimen name="search_box_text_left_margin">8dp</dimen>
+    <!-- Search box text size -->
+    <dimen name="search_text_size">15sp</dimen>
+
+    <!-- Approx Size of the layout. This is not used anywhere in layouts
+            but can be used to give margin on the main activity. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="medium_touchable">48dp</dimen>
+    <dimen name="small_touchable">32dp</dimen>
+    <dimen name="toolbar_text_size_small">11dp</dimen>
+
+
+</resources>
